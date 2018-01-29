@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2018-01-29T13:24:33. -->
+<!-- Written by QtCreator 4.5.0, 2018-01-28T18:41:33. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{9703f863-300b-4fdf-91c3-f5f6755e2027}</value>
+  <value type="QByteArray">{0f102864-8a40-449a-8635-accc4c972f83}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -59,8 +59,8 @@
  <data>
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">V-Play Desktop (Qt 5.9.3 MinGW)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">V-Play Desktop (Qt 5.9.3 MinGW)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">V-Play Desktop (Qt 5.10.0 MinGW)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">V-Play Desktop (Qt 5.10.0 MinGW)</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">vplayengine.2.qt.win32_mingw_kit</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
@@ -298,13 +298,13 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">GamePlayground</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">GamePlayground2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:F:/VplayGames/GamePlayground/GamePlayground.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:F:/MARTIN ORDNER/V_play/GamePlayground/GamePlayground.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">GamePlayground.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">F:/VplayGames/build-GamePlayground-V_Play_Desktop_Qt_5_9_0_MinGW-Debug</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">F:/MARTIN ORDNER/V_play/build-GamePlayground-V_Play_Desktop_Qt_5_9_0_MinGW-Debug</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

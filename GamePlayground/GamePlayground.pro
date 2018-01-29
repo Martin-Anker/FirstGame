@@ -44,4 +44,5 @@ macx {
 
 DISTFILES += \
     qml/Ground.qml \
-    qml/Pipe.qml
+    qml/Pipe.qml \
+    qml/Blanket.qml

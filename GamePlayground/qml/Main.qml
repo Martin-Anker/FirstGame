@@ -4,8 +4,6 @@ import QtQuick 2.0
 
 GameWindow {
 
-
-
     Scene {
         id:scene
 
@@ -16,7 +14,7 @@ GameWindow {
             }
         }
 
-        property int gravitydouble: 24
+        property int gravitydouble: 9
         property string gameState: "play"
 
         function startgame () {
@@ -28,7 +26,7 @@ GameWindow {
         }
 
         PhysicsWorld {
-            debugDrawVisible: true
+            debugDrawVisible: false
             z: 1000
             gravity.y: scene.gameState != "wait" ? scene.gravitydouble : 0
         }
@@ -45,6 +43,11 @@ GameWindow {
         Ground {
             anchors.horizontalCenter: scene.horizontalCenter
             anchors.bottom: scene.gameWindowAnchorItem.bottom
+        }
+
+        Blanket {
+            anchors.horizontalCenter: scene.horizontalCenter
+            anchors.top: scene.gameWindowAnchorItem.top
         }
 
         Pipe {

@@ -9,7 +9,7 @@ EntityBase {
     height: 30
 
     PhysicsWorld {
-        debugDrawVisible: true
+        debugDrawVisible: false
         gravity.y: scene.gravitydouble
     }
 
@@ -18,11 +18,13 @@ EntityBase {
         var localForwardVector = collider.body.toWorldVector(Qt.point(0, 0));
         collider.body.applyLinearImpulse(localForwardVector, collider.body.getWorldCenter());
         if (scene.gravitydouble > 0) {
-            scene.gravitydouble = -24
+            scene.gravitydouble = -9
+            bird.mirrorY = true
             console.log(scene.gravitydouble)
         }
         else {
-            scene.gravitydouble = 24
+            scene.gravitydouble = 9
+            bird.mirrorY = false
             console.log(scene.gravitydouble)
         }
     }
